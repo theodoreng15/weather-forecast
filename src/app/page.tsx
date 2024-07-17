@@ -3,9 +3,6 @@ import React, { useState } from 'react'
 import Input from "./components/input"
 import Current from "./components/Current"
 import WeekForecast from "./components/WeatherForecast"
-import WeatherDetails from "./components/WeatherDetails"
-
-
 
 const Home = () => {
   const [data, setData] = useState({});
@@ -37,10 +34,15 @@ const Home = () => {
 
   let content;
   if (Object.keys(data).length === 0 && error === "") {
+
+
     content = (
-      <div>
-        <h2> Welcome to the Weather App </h2>
-      </div>
+      <>
+        <div className="text-white text-center h-screen mt-[5rem] ">
+          <h2 className="text-xl font-bold"> Welcome to the Weather App </h2>
+          <p> Enter a city name to get its weather forecast </p>
+        </div>
+      </>
     );
   } else if (error !== "") {
     content = (
@@ -52,7 +54,7 @@ const Home = () => {
   } else {
     content = (
       <>
-        <div>
+        <div className="flex md:flex-row flex-col p-12 items-center justify-between mt-[-4rem] flex-center ">
           <Current data={data} />
           <WeekForecast data={data} />
         </div>
@@ -60,12 +62,9 @@ const Home = () => {
     )
   }
 
-
-
-
   return (
     <div className="bg-cover bg-gradient-to-r from-blue-500 to-blue-300 h-screen">
-      <div className="bg-white/25 w-full flex flex-col h-fit">
+      <div className="bg-gradient-to-r from-blue-500 to-blue-300 w-full flex flex-col h-fit">
         {/* Input logo*/}
         <div className="flex justify-between items-center p-12 md: flex-row">
           <Input handleSearch={handleSearch} setLocation={setLocation} />

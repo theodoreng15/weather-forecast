@@ -9,7 +9,7 @@ interface InputProps {
 const Input = ({ handleSearch, setLocation }: InputProps) => {
     return (
         <form className="flex items-center md:w-2/4 w-full">
-            <input className="w-full bg-transparent placeholder-white outline-none border-b-2" type="text" placeholder="Search City"
+            <input className="w-full bg-transparent placeholder-white outline-none border-b-2 text-white" type="text" placeholder="Search City"
                 onKeyDown={handleSearch}
                 onChange={(e) => setLocation(e.target.value)}
             />

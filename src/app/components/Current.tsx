@@ -34,7 +34,7 @@ const Current = ({ data }) => {
 
 
     return (
-        <div className="flex flex-col mb-8 items-start gap-2 w-1/2 p-6 rounded-xl md:mb-0">
+        <div className="flex flex-col mb-8 items-center gap-6 p-6 rounded-xl md:flex-row md:justify-center">
             <div className="flex items-center">
                 <div>
                     <div className="flex items-center gap-2">
