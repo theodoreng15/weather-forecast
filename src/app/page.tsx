@@ -56,9 +56,6 @@ const Home = () => {
           <Current data={data} />
           <WeekForecast data={data} />
         </div>
-        <div>
-          <WeatherDetails />
-        </div>
       </>
     )
   }
