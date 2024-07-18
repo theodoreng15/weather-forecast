@@ -1,6 +1,6 @@
 Theodore's Note:
 
-Hello! For the past week, I've been building this weather app with a completed front and backend, included with SQLite, JSON Web Tokens, Cookie History, and Node.js with Express. One fault I had with this app though was creating a 5-day forecast instead of a 7-day one. After building the weather app, I realized I was using the 5-day API instead of the One Call API from OpenWeather.
+Hello! For the past week, I've been building this weather app with a completed front and backend, included with SQLite, JSON Web Tokens, Cookie History, and Node.js with Express. One fault I had with this app though was creating a 5-day forecast instead of a 7-day one. After building the weather app, I realized I was using the 5-day API instead of the One Call API from OpenWeather. However, I decided against restarting and continued work. 
 
 To run this application, clone this repository with an IDE like VSCode. 
 1. cd .\server\
