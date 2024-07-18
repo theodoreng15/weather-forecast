@@ -5,11 +5,13 @@ Hello! For the past week, I've been building this weather app with a completed f
 To run this application, clone this repository with an IDE like VSCode. 
 1. cd .\server\
 2. npm start
-3. cd ..
-4. npm run dev
-5. Open http://localhost:3000/
+3. Open up a new terminal and if you need to cd back into weather-forecast
+5. npm run dev
+6. Open http://localhost:3000/
 
-Step 2 builds the backend, while Step 4 builds the front end. Definetely had a much harder time with the backend, and making sure that the Sign In page showed first. This was a fun challenge, though. Thank you! Looking forward to chating with you!
+NOTE: When you sign up and log in for the first time, it will save your history because of cookies. If you want to resign in, just delete your cookies from the top of your browser.
+
+Step 2 builds the backend, while Step 5 builds the front end. Definetely had a much harder time with the backend, and making sure that the Sign In page showed first. This was a fun challenge, though. Thank you! Looking forward to chating with you!
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
