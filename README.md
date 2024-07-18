@@ -1,3 +1,17 @@
+Theodore's Note:
+
+Hello! For the past week, I've been building this weather app with a completed front and backend, included with SQLite, JSON Web Tokens, Cookie History, and Node.js with Express. One fault I had with this app though was creating a 5-day forecast instead of a 7-day one. After building the weather app, I realized I was using the 5-day API instead of the One Call API from OpenWeather.
+
+To run this application, clone this repository with an IDE like VSCode. 
+1. cd .\server\
+2. npm start
+3. cd ..
+4. npm run dev
+5. Open http://localhost:3000/
+
+Step 2 builds the backend, while Step 4 builds the front end. Definetely had a much harder time with the backend, and making sure that the Sign In page showed first. This was a fun challenge, though. Thank you! Looking forward to chating with you!
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
